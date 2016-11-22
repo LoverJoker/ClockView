@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#c98730"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.joker.clockview.MainActivity">
+
+    <Views.ClockView
+        android:id="@+id/clock"
+        android:layout_width="380dp"
+        android:layout_height="380dp"
+        android:layout_centerInParent="true"
+        app:ColorBackground="#FFFFFF"
+        app:ColorLongPointer="#000"
+        app:ColorShortPointer="#ccc"
+        app:ColorOther="#000"
+        app:ColorSencond="#f00"
+        />
+</RelativeLayout>

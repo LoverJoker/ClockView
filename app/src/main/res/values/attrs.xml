@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--表盘颜色-->
+    <attr name="ColorBackground"  format="color"/>
+    <!--逢5倍数的长刻度颜色-->
+    <attr name="ColorLongPointer" format="color" />
+    <!--短刻度的颜色-->
+    <attr name="ColorShortPointer" format="color" />
+    <!--秒针的颜色-->
+    <attr name="ColorSencond" format="color" />
+    <!--分钟，时钟的颜色-->
+    <attr name="ColorOther" format="color" />
+
+
+    <declare-styleable name="ClockView">
+        <attr name="ColorBackground" />
+        <attr name="ColorLongPointer" />
+        <attr name="ColorShortPointer" />
+        <attr name="ColorSencond" />
+        <attr name="ColorOther" />
+    </declare-styleable>
+</resources>
